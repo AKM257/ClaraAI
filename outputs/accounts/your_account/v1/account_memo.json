@@ -1,0 +1,43 @@
+{
+  "account_id": "bens-electric-solutions-team",
+  "company_name": "Ben's Electric Solutions Team",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start": "8:00 AM",
+    "end": "3:30 PM",
+    "timezone": null
+  },
+  "office_address": null,
+  "services_supported": [],
+  "emergency_definition": [],
+  "emergency_routing_rules": {
+    "primary_contact": "Ben",
+    "order": [],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": null,
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retries": null,
+    "fail_message": null
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "No emergency calls, except for existing builders and one property manager (GNM Pressure Washing)",
+  "office_hours_flow_summary": "Clara will answer calls, and if necessary, transfer to Ben's second number",
+  "questions_or_unknowns": [
+    "Timezone for business hours",
+    "Specific services supported by the company",
+    "Emergency definition and routing rules",
+    "Non-emergency routing rules",
+    "Call transfer rules"
+  ],
+  "notes": "Ben's Electric Solutions Team has a service call fee of $115, and an hourly charge of $98. They have a property manager (GNM Pressure Washing) who may call for emergencies after hours.",
+  "source": "demo_call",
+  "version": "v1"
+}

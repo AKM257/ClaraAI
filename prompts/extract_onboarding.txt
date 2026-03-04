@@ -1,0 +1,5 @@
+You are reading an ONBOARDING call transcript. This call contains confirmed, 
+operational details that may update or override the demo call assumptions.
+
+Extract only what is explicitly confirmed in this onboarding call.
+Return the same JSON structure. Only include fields mentioned in this call.
