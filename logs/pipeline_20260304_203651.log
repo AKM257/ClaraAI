@@ -1,0 +1,9 @@
+2026-03-04 20:36:51,719 [INFO] Pipeline started
+2026-03-04 20:36:51,719 [INFO] === PIPELINE A: Demo Calls -> v1 ===
+2026-03-04 20:36:51,720 [INFO] Processing demo: transcript.txt -> account: transcript
+2026-03-04 20:36:51,720 [INFO] SKIP (already exists): ../outputs/accounts\transcript\v1/account_memo.json
+2026-03-04 20:36:51,722 [ERROR] FAILED transcript: [Errno 2] No such file or directory: 'prompts/agent_prompt_template.txt'
+2026-03-04 20:36:51,723 [INFO] === PIPELINE B: Onboarding -> v2 ===
+2026-03-04 20:36:51,723 [INFO] SKIP (v2 already exists): transcript
+2026-03-04 20:36:51,726 [INFO] Done. 0 succeeded, 1 failed.
+2026-03-04 20:36:51,726 [INFO] Summary saved: ../logs/summary_20260304_203651.json
